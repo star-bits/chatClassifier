@@ -3,7 +3,7 @@
 - 2022년의 데이터는 train set, 2023년 1월의 데이터는 test set으로 이용함 (각각 93만개, 5만개)
 - 대화량 상위 62명의 데이터만 사용함 
 - SentencePiece를 이용해 vocab size 10000으로 토큰화
-- 정수변환 이후 최대 길이 25로 패딩 (99% 이상의 데이터가 길이 25 이하)
+- 정수변환 이후 최대 길이 25로 padding (99% 이상의 데이터가 길이 25 이하)
 - Multi-Kernel 1D CNN으로 train (Epoch 6에서 early stopping)
 - Validation accuracy 0.25, Test accuracy 0.29
 
